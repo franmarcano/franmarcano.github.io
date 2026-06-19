@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // CONFIGURACIÓN DE ENVÍO
 
-            const urlDestino = 'https://formspree.io/f/tu-form-id';
+            const urlDestino = 'https://formspree.io/f/xwvjdjey';
 
 
             // SOLICITUD HTTP POST usando Fetch

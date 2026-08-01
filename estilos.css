@@ -164,30 +164,6 @@ body {
     justify-content: center;
 }
 
-.avatar-placeholder {
-    background: linear-gradient(135deg, #0f2b3d, #1b4f6e);
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
-    box-shadow: 0 12px 30px rgba(15, 43, 61, 0.25);
-}
-
-.avatar-placeholder i {
-    font-size: 5rem;
-    color: #ffb347;
-}
-
-.avatar-placeholder span {
-    font-size: 0.9rem;
-    margin-top: 0.3rem;
-    font-weight: 600;
-}
-
 .avatar-container {
     width: 200px;
     height: 200px;
@@ -205,6 +181,7 @@ body {
     height: 100%;
     object-fit: cover; /* Asegura que la foto no se deforme */
 }
+
 .hero-social {
     display: flex;
     gap: 1.2rem;

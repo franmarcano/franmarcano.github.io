@@ -188,6 +188,23 @@ body {
     font-weight: 600;
 }
 
+.avatar-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden; /* Esto recorta la imagen para que se vea redonda */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    border: 4px solid #1F3A4F; /* El borde azul marino */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar-img {
+    width: 100%; /* La foto ocupa todo el ancho del círculo */
+    height: 100%;
+    object-fit: cover; /* Asegura que la foto no se deforme */
+}
 .hero-social {
     display: flex;
     gap: 1.2rem;

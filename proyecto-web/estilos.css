@@ -182,7 +182,6 @@ body {
     border-radius: 50%;
     overflow: hidden; /* Esto recorta la imagen para que se vea redonda */
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    border: 4px solid #1F3A4F; /* El borde azul marino */
     display: flex;
     justify-content: center;
     align-items: center;
